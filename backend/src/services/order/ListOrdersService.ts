@@ -1,0 +1,15 @@
+import { ListOrdersService } from "../../controllers/order/ListOrdersController";
+import { Request, Response } from "express";
+
+class ListOrdersController{
+    async handle(req: Request, res: Response){
+
+        const listOrdersService = new ListOrdersService()
+
+        const orders = await listOrdersService.exeute()
+
+        return res.json(orders)
+    }
+}
+
+export { ListOrdersController }
