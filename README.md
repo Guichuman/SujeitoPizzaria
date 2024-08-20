@@ -17,11 +17,11 @@ Sistema criado para aprender sobre NextJS, Prisma, Typescript e React Native, e 
 
 ### 🛠️ Desenvolvido com
 Liste as tecnologias e frameworks usados no projeto:
-- [Nextjs]
-- [Nodejs]
-- [PostgreSQL]
-- [React Native]
-- [Typescript]
+- Nextjs
+- Nodejs
+- PostgreSQL
+- React Native
+- Typescript
 
 ## ✨ Funcionalidades
 
